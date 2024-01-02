@@ -12,6 +12,7 @@ gspread_config = os.getenv('FILE_LOCATION')
 def get_spreadsheets():
     gc = gspread.service_account(
         filename=gspread_config)
+    # this requires access to the google drive API
     sh = gc.open("Sandbox - Marta Strikes Back")
     sheets = sh.worksheets()
     return sheets
