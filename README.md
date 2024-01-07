@@ -16,3 +16,7 @@ A streamlit frontend for fantasy NWSL
 # learnings + things to research
 
 - the streamlit connection does not allow one to view the list of spreadsheets apparently. Not a huge fan of my current implementation but I wanted to get basic read/write functionality done quickly
+
+# things to do
+
+- make sure I have the right link after my computer meltdown
